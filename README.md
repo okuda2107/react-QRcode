@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# react-QRcode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+reactの練習とQRcodeを生成するモジュールを動かすためのテストリポジトリ
 
-Currently, two official plugins are available:
+## 目的のQRcodeモジュール
+**qrcode.react**
+> https://github.com/zpao/qrcode.react
+- ダウンロードされている数が多い
+> https://npmtrends.com/qr-image-vs-qrcode-vs-qrcode-generator-vs-qrcode-npm-vs-qrcode-react-vs-qrcode.react-vs-react-qr-code-vs-react-qrcodes
+- reactの記法に対応している
+- typescriptもサポートしている
+- コミットの頻度も高く，活発に開発されてそう？
+- ドキュメントが網羅的で読みやすい？
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 現時点でのこのリポジトリの内容
+1. vscodeのdevcontainerで開きます．
+1. `yarn dev`をターミナルで叩く
 
-## Expanding the ESLint configuration
+1. 下のようなサイトが開く
+![alt](README_img/root.png "図1")
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. `create room`を押すと，下のような画面に遷移する．
+![alt](README_img/room.png "図2")
