@@ -1,0 +1,8 @@
+{
+	"name": "qr-code-server",
+	"build": {
+		"dockerfile": "./Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "updateRemoteUserUID": true
+}
