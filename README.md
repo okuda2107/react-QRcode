@@ -18,7 +18,11 @@ reactの練習とQRcodeを生成するモジュールを動かすためのテス
 1. `yarn dev`をターミナルで叩く
 
 1. 下のようなサイトが開く
-![alt](README_img/root.png "図1")
+![root](https://github.com/okuda2107/react-QRcode/assets/93305622/db12fe83-3660-41b5-8541-daf97736f4ef)
 
 1. `create room`を押すと，下のような画面に遷移する．
-![alt](README_img/room.png "図2")
+![room](https://github.com/okuda2107/react-QRcode/assets/93305622/9f4cc38e-1aa8-4aa5-9cc9-f375157497e6)
+
+[](
+    画像をissueに張り付けてそのurlを使う
+)
